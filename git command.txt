@@ -1,0 +1,12 @@
+git config --global user.email "pramepree159@gmail.com"
+
+git config --global user.name "pramepree"
+
+touch add.js // การสร้างไฟล์
+
+    git init //เริ่มติดตามโฟเดอร์ที่สร้างขึ้นมา
+
+git status //No commits yet......Untracked files:
+
+    gii add index.html
+    git rm --cached index.html // remove....rm 'index.html'
