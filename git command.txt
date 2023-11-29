@@ -8,5 +8,9 @@ touch add.js // การสร้างไฟล์
 
 git status //No commits yet......Untracked files:
 
-    gii add index.html
+    gii add index.html // ตามมาแค่ไฟล์เดียว
     git rm --cached index.html // remove....rm 'index.html'
+    git add . // ตามทุกไฟล์
+    gti commit -m "addfileto project" //-m is name "is comment"
+    git log // ดูประวัตการ commit
+    
