@@ -13,4 +13,23 @@ git status //No commits yet......Untracked files:
     git add . // ตามทุกไฟล์
     gti commit -m "addfileto project" //-m is name "is comment"
     git log // ดูประวัตการ commit
-    
+
+    git log --oneline//ดูแบบกระชับ
+4096ca2 (HEAD -> master) test2
+db45040 test
+
+    git log --graph
+* commit 4096ca298b0f10c98e90f5c2940132bfe0a875be (HEAD -> master)
+| Author: pramepree <pramepree159@gmail.com>
+| Date:   Wed Nov 29 14:36:41 2023 +0700
+|
+|     test2
+|
+* commit db45040aebb91a39e8093d4f76b263cbcd4ef894
+  Author: pramepree <pramepree159@gmail.com>
+  Date:   Wed Nov 29 14:30:41 2023 +0700
+
+      test
+----------------------------------------------------------------
+
+git diff db45040 4096ca2 // เทียบของเก่า-ใหม่

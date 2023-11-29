@@ -1,0 +1,25 @@
+[1mdiff --git a/app.js b/app.js[m
+[1mindex e69de29..7a2bb74 100644[m
+[1m--- a/app.js[m
+[1m+++ b/app.js[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconsole.log("Hello");[m
+\ No newline at end of file[m
+[1mdiff --git a/git command.txt b/git command.txt[m
+[1mindex bfafa99..57d120d 100644[m
+[1m--- a/git command.txt[m	
+[1m+++ b/git command.txt[m	
+[36m@@ -8,5 +8,9 @@[m [mtouch add.js // การสร้างไฟล์[m
+ [m
+ git status //No commits yet......Untracked files:[m
+ [m
+[31m-    gii add index.html[m
+[31m-    git rm --cached index.html // remove....rm 'index.html'[m
+\ No newline at end of file[m
+[32m+[m[32m    gii add index.html // ตามมาแค่ไฟล์เดียว[m
+[32m+[m[32m    git rm --cached index.html // remove....rm 'index.html'[m
+[32m+[m[32m    git add . // ตามทุกไฟล์[m
+[32m+[m[32m    gti commit -m "addfileto project" //-m is name "is comment"[m
+[32m+[m[32m    git log // ดูประวัตการ commit[m
+[41m+    [m
+\ No newline at end of file[m
